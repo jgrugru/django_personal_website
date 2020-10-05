@@ -1,0 +1,11 @@
+
+{
+    "files.exclude": {
+        "**/__pycache__/*": true,
+        "**/__pycache__/": true,
+        "**/.pytest_cache/": true,
+        "**/.vscode/*": true,
+        "**/.vscode": true,
+        "**/debug.log/": true,
+    }
+}
