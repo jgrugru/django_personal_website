@@ -1,5 +1,6 @@
 body{
-    background-color:#F8F8F8!important;
+    /* background-color:#F8F8F8!important; */
+    background-color:#eefaff!important;
 }
 
 #profile-wrapper{
@@ -26,6 +27,20 @@ ul{
 }
 
 .social{
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
+    margin-right: 7px;
+}
+
+.card{
+    background-color: #d7e6f7!important;
+}
+
+.card > h4, .card > h5{
+    color: #001F54;
+    font-weight: 900;
+}
+
+.card > p {
+    color: #0A1128;
 }
