@@ -33,7 +33,7 @@ ul{
 }
 
 .card{
-    background-color: #d7e6f7!important;
+    background-color: #b5cde9!important;
 }
 
 .card > h4, .card > h5{
@@ -43,4 +43,21 @@ ul{
 
 .card > p {
     color: #0A1128;
+}
+
+.sticky-note {
+    background-image: url('../images/sticky_note.png')!important;
+    width: 99px;
+    height: 68px;
+}
+
+.sticky-note:hover {
+    /* margin-right:7px; */
+    font-size: 120%;
+}
+
+.nav-item {
+    vertical-align: middle;
+    text-align: center;
+    line-height: 55px;
 }
