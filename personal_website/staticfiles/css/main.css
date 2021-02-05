@@ -21,18 +21,19 @@ ul{
     list-style-type: none;
 }
 
-.social-links ul, li{
-    list-style-type: none;
+.social-links li{
     display: inline-block;
     margin-left: 10px;
     text-decoration: none!important;
 
 }
 
-.social{
+.social-icon {
     width: 30px;
     height: 30px;
     background-color: #031628;
+    text-decoration: none!important;
+
 }
 
 .my-card{
@@ -46,9 +47,14 @@ ul{
     color: #1aeb58;
     font-weight: 900;
     margin:10px;
+    padding-right: 1px;
 }
 
 .my-card > p {
     color: #049aff;
     margin:10px;
+}
+
+.p-link{
+    color: rgb(134, 166, 187);
 }
