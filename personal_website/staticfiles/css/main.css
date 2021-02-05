@@ -1,6 +1,6 @@
 body{
     /* background-color:#F8F8F8!important; */
-    background-color:#eefaff!important;
+    background-color:#000000!important;
 }
 
 #profile-wrapper{
@@ -13,6 +13,7 @@ body{
     border-radius: 50%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 10px;
 }
 
 ul{
@@ -23,41 +24,31 @@ ul{
 .social-links ul, li{
     list-style-type: none;
     display: inline-block;
+    margin-left: 10px;
+    text-decoration: none!important;
 
 }
 
 .social{
     width: 30px;
     height: 30px;
-    margin-right: 7px;
+    background-color: #031628;
 }
 
-.card{
-    background-color: #b5cde9!important;
+.my-card{
+    background-color: #031628;
+    border-style: solid;
+    border-width: 1px;
+    margin:5px 2px 7px 5px;
 }
 
-.card > h4, .card > h5{
-    color: #001F54;
+.my-card > h4, .my-card > h5{
+    color: #1aeb58;
     font-weight: 900;
+    margin:10px;
 }
 
-.card > p {
-    color: #0A1128;
-}
-
-.sticky-note {
-    background-image: url('../images/sticky_note.png')!important;
-    width: 99px;
-    height: 68px;
-}
-
-.sticky-note:hover {
-    /* margin-right:7px; */
-    font-size: 120%;
-}
-
-.nav-item {
-    vertical-align: middle;
-    text-align: center;
-    line-height: 55px;
+.my-card > p {
+    color: #049aff;
+    margin:10px;
 }
