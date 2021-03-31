@@ -5,6 +5,7 @@
 	{% include 'base/navbar.html' %}
 	<br>
 	<div class="container">
+
 		<div class="row">
 			<div class='col-md-3'>
 				<div class="my-card" id='profile-wrapper'> <img id='profile-pic' src="{% static 'images/jeffg.jpeg' %}">
@@ -14,29 +15,8 @@
 				</div>
 			</div>
 			<div class='col-md-9'>
-				<div class="my-card hover-effect">
-					<h4>Forget the Title</h4>
-					<hr class="top-line">
-					<p>Self proclaimed learner. Shredder of corporate labels. Someone who enjoys discovering
-						technologies and learning about anything and everything in the IT space, ranging from the nitty
-						gritty details of git to the broad scope of software application.
-					</p>
-					<hr class="top-line">
-					<ul class="icon-links">
-						<a href='https://github.com/jgrugru' target="_blank">
-							<li><img class='social-icon' src="{% static 'images/github_icon.png' %}"></li>
-						</a>
-						<a href='https://www.linkedin.com/in/jeff-gruenbaum-3a544619b' target="_blank">
-							<li><img class='social-icon' src="{% static 'images/linkedin_icon1.png' %}"></li>
-						</a>
-					</ul>
-				</div>
-			</div>
-		</div>
-		<br>
-		<div class="row">
-			<div class='col-md-6'>
-				<div class="my-card hover-effect">
+
+				<div class="my-card">
 					<h5>What I Do</h5>
 					<hr class="top-line">
 					<p>Fresh out of college, I began managing code pipelines for the largest tech compamy in Oklahoma. I
@@ -44,50 +24,66 @@
 						Teamcity, utilizing Docker and Powershell scripting.</p>
 					<p>My career has continued in the devops space. Now I get to use Python on a daily basis, automating
 						security tasks and integrating tools. </p>
-				</div>
-			</div>
-			<div class='col-md-6'>
-				<div class="my-card hover-effect">
-					<h5>My Experience as a Developer</h5>
-					<hr class="top-line">
-					<p>Ever since the Covid pandemic swept through the US shortly after the ides of March, I have taken
-						time to break past surface level development knowledge. To follow that statement up: who is to
-						say I broke through? Regardless, I am trying to swim in this newly found software ocean.</p>
 					<p>Thanks to social distancing and flattening the curve, I have dug deep into Python and Django,
 						replicating linux commands on Windows, creating various webscraping projects and a ticket
 						tracking system. Checkout my <a class="p-link" href='https://github.com/jgrugru' target="_blank">github</a>!
 					</p>
 				</div>
+
 			</div>
 		</div>
 		<br>
+
+		<h4 id='sub-title'>My Projects</h4>
+		<hr class='top-line'>
+
 		<div class="row">
-			<div class='col-md-6'>
-				<div class="my-card hover-effect">
-					<h5>How I Learn</h5>
-					<hr class="top-line">
-					<p>Projects that give immediate feedback and allow for interactions with other humans are where I
-						learn best. As a full-blown extrovert, the human element is crucial when learning. Covid, please
-						let up.</p>
-					<p>While that is the case, I have discoved that I am extremely motivated to learn about certain
-						topics regardless of who is involved. Django is one of them. I have fallen in love with the
-						depth of Django's capabilities. I feel like it was built for me: ease of testing and immediate
-						feedback.</p>
+			<div class='col'>
+
+				<div class="row">
+					<div class="col-md-6">
+						<a href='https://github.com/jgrugru/grewtix_project' target="_blank">
+							<div class="my-card hover-effect" style="height: 11rem;">
+								<h5>Grewtix</h5>
+								<hr class="top-line">
+								<p>Grewtix is a ticket tracking system built through the Python (3.8.5) framework Django (3.0.6). Through Grewtix, you can create tickets for work/projects/teams and assign them as needed. Grewtix is in the beginning stages of development so many features are coming soon.</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-6">
+						<a href='https://github.com/jgrugru/encrypto-env' target="_blank">
+						<div class="my-card hover-effect" style="height: 11rem;">
+							<h5>Encrypto-env</h5>
+							<hr class="top-line">
+							<p>With one command, you can setup and protect your environment variables. Encrypto-env encrypts the .env file with an RSA key stored in a pem file.</p>
+						</div>
+					</div>
 				</div>
-			</div>
-			<div class='col-md-6'>
-				<div class="my-card hover-effect">
-					<h5>My Short Term Goals</h5>
-					<hr class="top-line">
-					<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-						totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-						dicta sunt explicabo.</p>
-					<p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae
-						consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+				<div class="row">
+					<div class="col-md-6">
+						<a href='https://github.com/jgrugru/htmlfactory' target="_blank">
+						<div class="my-card hover-effect" style="height: 11rem;">
+							<h5>htmlfactory</h5>
+							<hr class="top-line">
+							<p>A simple way to produce HTML with Python.</p>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<a href='https://github.com/jgrugru/bootstrap-forms' target="_blank">
+						<div class="my-card hover-effect" style="height: 11rem;">
+							<h5>bootstrap-forms</h5>
+							<hr class="top-line">
+							<p>Built using the PyPi package htmlfactory. Bootstrap-forms makes form creation through Python hassle-free.</p>
+						</div>
+					</div>
 				</div>
+
 			</div>
 		</div>
+
 		<br>
+		<br>
+
 	</div>
 </body>
 
